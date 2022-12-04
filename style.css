@@ -219,8 +219,8 @@ body {
 }
 
 .myPic {
-    width: 15rem;
-    height: 15rem;
+    width: 12rem;
+    height: 12rem;
     margin: 2rem;
     border-radius: 100rem;
 }
@@ -261,11 +261,11 @@ body {
     justify-content: center;
 }
 
-img {
+#imgproj {
     transition: transform 0.25s ease;
 }
 
-img:hover {
+#imgproj:hover {
     transform: scale(1.5);
     transform: scale(1.5);
 }
