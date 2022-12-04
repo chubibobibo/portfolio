@@ -30,10 +30,10 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav nav1">
-                            <a class="nav-link active myLinks" aria-current="page" href="#">About Me</a>
-                            <a class="nav-link myLinks" href="#">Projects</a>
-                            <a class="nav-link myLinks" href="#">Skills</a>
-                            <a class="nav-link myLinks" href="#">Contact</a>
+                            <a class="nav-link active myLinks" aria-current="page" href="#aboutMe">About Me</a>
+                            <a class="nav-link active myLinks" href="#projects">Projects</a>
+                            <a class="nav-link  active myLinks" href="#skills">Skills</a>
+                            <a class="nav-link active myLinks" href="#">Contact</a>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
             <div class="row">
                 <div class="mainBody">
                     <h1 class="mainTitle" style="color:white">Hi, I'm<br>Alistair</h1>
-                    <p class="mainText">A self-taught Web developer from Paris trying to start a career in web
+                    <p class="mainText">A self-taught Web developer trying to start a career in web
                         development</p>
                     <div class="row iconRow">
                         <div class="col-md-2">
@@ -81,9 +81,9 @@
             </div>
     </section>
     <section>
-        <div class="container-fluid cont1">
+        <div class="container-fluid cont1 jsCont">
             <div class="row secondRow">
-                <h1 class="aboutMe">About Me</h1>
+                <h1 class="aboutMe" id="aboutMe">About Me</h1>
                 <div class=" col-md-6 secondBody">
                     <p class="abtTxt">Hello,<br>
                         I am Alistair and I am taking an online course in web development which
@@ -98,22 +98,25 @@
                         src="https://images.unsplash.com/photo-1609602644879-dd158c2b56b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
                         alt="">
                 </div>
+                <hr>
                 <div class="row secondRow">
                     <div class="col-md-6 colSecond">
                         <h1 class="aboutMe">Education</h1>
-                        <p class="abtTxt">I was a graduate and a registered nurse in the Philippines before coming in
+                        <p class="abtTxt">I was a graduate and a registered nurse in the Philippines before coming to
                             Paris. Started
                             right
                             away working in the restaurant industry before finally taking the chance to pursue the
                             career
-                            change that I've been wanting to do. I am always about improving adding to the current
+                            change that I've been wanting to do. I am always about improving my skills and adding new
+                            ideas to the current
                             skilset that I
-                            have, whether in a classroom environment or online and teaching myself. I am currently
+                            have, be it in a classroom environment or teaching myself a new programing language. I am
+                            currently
                             enrolled
                             in an online full stack web development course by Studi, an online course provider. </p>
                     </div>
                     <div class="col-md-6 colSecond">
-                        <h1 class="aboutMe">Skills</h1>
+                        <h1 class="aboutMe" id="skills">Skills</h1>
                         <p class="abtTxt">HTML 5| CSS3 | JavaScript | Node.js | Express | Git | </p>
                     </div>
                 </div>
@@ -128,37 +131,122 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="container-fluid projectSec">
-            <div class="row">
-                <h1 style="color:white">Projects</h1>
-                <div class="col">
-                    <p>asdasdasdasd</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate beatae, laboriosam non tempora
-                        excepturi ea itaque quasi, perferendis error nisi sed? Ducimus velit, commodi voluptatem
-                        accusamus illum nobis porro ipsa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                        animi expedita, voluptatem magnam obcaecati corrupti eaque deserunt ad. Labore, voluptates
-                        veniam quia molestiae assumenda cum minima repellendus reprehenderit accusamus dolores!Loremlore
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, libero ad, pariatur magni
-                        molestias amet, ratione eos inventore et possimus eligendi repellendus? Neque sit excepturi
-                        voluptas ipsum tenetur necessitatibus Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Ea illum omnis ipsum quaerat aliquam illo delectus quasi dolor obcaecati molestiae soluta
-                        ratione, saepe voluptate neque nostrum velit mollitia similique quibusdam!Lorem Lorem ipsum
-                        dolor sit amet, consectetur adipisicing elit. Sit, mollitia! Quam maiores nesciunt, distinctio
-                        optio animi sequi laudantium, et repudiandae sit architecto ipsum praesentium nemo earum
-                        mollitia voluptates. Alias, dolorem.lorem Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Omnis fugiat veniam inventore eaque eveniet architecto adipisci iusto alias perspiciatis,
-                        eos ipsam quibusdam distinctio voluptatum. Animi repudiandae iure consequuntur quibusdam harum.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi dolores beatae itaque! Labore
-                        odit, ullam quas, odio tempora consequatur dolorum deserunt itaque quisquam vitae qui doloremque
-                        facilis doloribus praesentium soluta? lorem</p>
 
+    <section>
+        <div class="container-fluid projectSec jsCont">
+            <div class="row rowProject">
+                <h1 class="aboutMe" style="color: white;" id="projects">Projects</h1>
+                <div class="col-md-6 colProj">
+                    <div class="card" style=" width: 18rem;">
+                        <img src="D:\CODING\GithubRepositories\portfoliomk2\assets\piggamescreenshot.png"
+                            class="card-img-top projImg" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">HTML | CSS | JavaScript</p>
+                            <br>
+                            <p class="card-text">Simple game utilizing JS DOM to select HTML elements and provide
+                                functionalities</p>
+                            <br>
+                            <span class="card-text"><a href="https://project-dice-game2.vercel.app/"
+                                    class="btn btn-secondary">DEMO</a>
+                            </span>
+                            <span class="card-text"><a href="https://github.com/chubibobibo/projectDiceGame.git"
+                                    class="btn btn-secondary">CODE</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 colProj">
+                    <div class="card" style=" width: 18rem;">
+                        <img src="D:\CODING\GithubRepositories\portfoliomk2\assets\reminderapp.png"
+                            class="card-img-top projImg" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">HTML | CSS | NODE.JS | EXPRESS</p> <br>
+                            <p class="card-text">A simple reminder app that uses an array instead of a database. This
+                                serves as a project to practice Express and I am currently learning MongoDb, which I
+                                plan
+                                to use in this app.</p><br>
+                            <span class="card-text"><a href="https://reminder-app-express.vercel.app/"
+                                    class="btn btn-secondary">Demo</a></span>
+                            <span class="card-text"><a href="https://github.com/chubibobibo/reminderAppExpress.git"
+                                    class="btn btn-secondary">CODE</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col colProj">
+                        <div class="card" style=" width: 18rem;">
+                            <img src="D:\CODING\GithubRepositories\portfoliomk2\assets\static site.png"
+                                class="card-img-top projImg" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">HTML | CSS | BOOTSTRAP</p> <br>
+                                <p class="card-text">One of the very first projects that I made as soon as I felt
+                                    comfortable using html and css. I love photography and is the reason at first why I
+                                    wanted to build web sites. I wanted to create my own website that will host my
+                                    photos</p> <br>
+                                <span class="card-text"><a href="https://chubibobibo.github.io/"
+                                        class="btn btn-secondary">Demo</a></span>
+                                <span class="card-text"><a href="https://github.com/chubibobibo/tinigSite.git"
+                                        class="btn btn-secondary">CODE</a></span>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        </div>
     </section>
+    <section>
+        <div class="container-fluid jsCont">
+            <form action="/web" class="form1">
+                <div class="formgrp row">
+                    <div class="col-md-6">
+                        <div class="row align-items-end">
+                            <div class="col-md-6 form-group form-control">
+                                <span class="text-start mb-3 d-block asterisk">*<span class="text-start">Indicates
+                                        required
+                                        field</span></span>
+                                <label for="name" class="col-form-label form-group ">Name <span
+                                        class="asterisk">*</span></label>
+                                <input type="text" id="name" name="name" placeholder="Name" required"
+                                    class="form-control">
+                            </div>
 
+                            <!-- This is lastname -->
 
+                            <div class="col-md-6 form-group form-control">
+                                <label for="lastname" class="col-form-label">Last Name <span
+                                        class="asterisk">*</span></label>
+                                <input type="text" id="" name="lastname" placeholder="Last Name" required
+                                    class="form-control">
+                            </div>
+
+                            <!-- This is email -->
+
+                            <div class="col-md-6 mt-3">
+                                <label for="email" class="col-form-label">Email <span class="asterisk">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="Email" class="form-control"
+                                    required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- This is textarea -->
+                        <div class="row">
+                            <div class="col form-group form-control">
+                                <label for="comment" class="col-form-label">Comments</label>
+                                <textarea name="comment" id="comment" cols="3" rows="5" class="form-control"
+                                    required></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="" class="btn btn-outline-secondary mt-3 btnsub">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        </div>
+    </section>
 
 
 

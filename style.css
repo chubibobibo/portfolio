@@ -142,6 +142,7 @@ body {
 
 .titleName {
     font-weight: 600;
+    font-size: 2.5rem;
 }
 
 .mainBody {
@@ -200,13 +201,14 @@ body {
     font-weight: 600;
     text-align: center;
     margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 .abtTxt {
-    margin-top: 2rem;
+    margin-top: -1rem;
     font-size: 1.5rem;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .picCont {
@@ -218,14 +220,79 @@ body {
     width: 15rem;
     height: 15rem;
     margin: 2rem;
+    border-radius: 100rem;
 }
 
 .projectSec {
     background-color: black;
     height: auto;
     max-height: 100%;
-    display: flex
+    display: flex;
 }
+
+.secondRow {
+    margin-top: 3rem;
+}
+
+.rowProject {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.colProj {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    /* width: 30rem; */
+}
+
+.projImg {
+    width: 18;
+    margin: auto;
+    height: 18;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    transition: transform 0.25s ease;
+}
+
+img:hover {
+    transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.form1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.formgrp {
+    width: auto;
+}
+
+.btnsub {
+    width: 10rem
+}
+
+.jsCont {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.jsCont.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
 
 @media(max-width: 480px) {
     .iconRow {
@@ -234,6 +301,8 @@ body {
         text-align: center;
         width: auto;
     }
+
+
 
     .mainTitle {
         /* transform: translateY(13rem); */
@@ -253,7 +322,6 @@ body {
         /* transform: translateY(13rem); */
         /* margin: auto; */
         transform: translateY(-20);
-        text-align: center;
     }
 
 
@@ -268,7 +336,9 @@ body {
  }
 
  .projectSec {
-     height: 100vh; */
+     height: 100vh;
+ */
+
 
 }
 
@@ -285,11 +355,11 @@ body {
     }
 
     .cont1 {
-        height: 100vh;
+        height: auto;
     }
 
     .projectSec {
-        height: 100vh;
+        height: auto;
     }
 }
 
@@ -325,11 +395,11 @@ body {
     }
 
     .cont1 {
-        height: 100vh;
+        height: auto;
     }
 
     .projectSec {
-        height: 100vh;
+        height: auto;
     }
 }
 
@@ -359,13 +429,11 @@ body {
     }
 
     .cont {
-        height: 100vh;
+        height: auto;
     }
 
     .projectSec {
-        height: 100vh;
+        height: auto;
     }
 
 }
-
-@media(min-width: 1200px) {}
