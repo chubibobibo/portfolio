@@ -295,6 +295,10 @@ img:hover {
 
 
 @media(max-width: 480px) {
+    .titleName {
+        font-size: 1.5rem;
+    }
+
     .iconRow {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -308,27 +312,35 @@ img:hover {
         /* transform: translateY(13rem); */
         /* margin: auto; */
         font-size: 2rem;
-        transform: translateY(20);
+        transform: translateY(10rem);
     }
 
     .mainText {
         /* transform: translateY(13rem); */
         /* margin: auto; */
         font-size: 0.8rem;
-        transform: translateY(-20);
+        transform: translateY(11rem);
     }
 
     .iconRow {
         /* transform: translateY(13rem); */
         /* margin: auto; */
-        transform: translateY(-20);
+        transform: translateY(12rem);
     }
 
 
     .icon {
         display: inline;
-        width: 1rem;
-        height: 1.5rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .abtTxt {
+        font-size: 1rem;
+    }
+
+    .aboutMe {
+        margin-top: -2rem;
     }
 
     /* /* .cont1 {
