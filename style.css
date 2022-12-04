@@ -143,7 +143,7 @@ body {
 
 .titleName {
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .mainBody {
@@ -342,14 +342,14 @@ body {
     .mainTitle {
         /* transform: translateY(13rem); */
         /* margin: auto; */
-        font-size: 2rem;
+        font-size: 3rem;
         transform: translateY(10rem);
     }
 
     .mainText {
         /* transform: translateY(13rem); */
         /* margin: auto; */
-        font-size: 0.8rem;
+        font-size: 1rem;
         transform: translateY(11rem);
     }
 
@@ -382,6 +382,17 @@ body {
     #tools {
         margin-bottom: 2rem;
         padding-bottom: 1rem;
+    }
+
+    .form1,
+    .form2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form2 {
+        transform: translateY(2rem);
+
     }
 
     /* /* .cont1 {
@@ -421,6 +432,16 @@ body {
         width: 2rem;
         height: 2.5rem;
     }
+
+    .form1,
+    .form2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form2 {
+        transform: translateY(2rem);
+    }
 }
 
 @media(min-width: 768px) {
@@ -459,6 +480,16 @@ body {
     .projectSec {
         height: auto;
     }
+
+    .form1,
+    .form2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form2 {
+        transform: translateY(2rem);
+    }
 }
 
 @media(min-width: 912px) {
@@ -493,6 +524,16 @@ body {
 
     .projectSec {
         height: auto;
+    }
+
+    .form1,
+    .form2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form2 {
+        transform: translateY(2rem);
     }
 
 }
