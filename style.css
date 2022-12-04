@@ -199,7 +199,7 @@ body {
 }
 
 .aboutMe {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 600;
     text-align: center;
     margin-top: 1rem;
@@ -334,12 +334,10 @@ img:hover {
 
     .iconRow {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        text-align: center;
-        width: auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        /* text-align: center; */
+        transform: translateY(12rem);
     }
-
-
 
     .mainTitle {
         /* transform: translateY(13rem); */
@@ -355,29 +353,35 @@ img:hover {
         transform: translateY(11rem);
     }
 
-    .iconRow {
-        /* transform: translateY(13rem); */
-        /* margin: auto; */
-        transform: translateY(12rem);
-    }
 
 
     .icon {
         display: inline;
         width: 2rem;
-        height: 2rem;
+        height: 2.5rem;
     }
 
     .abtTxt {
-        font-size: 1rem;
+        font-size: 1.5rem;
+        text-align: center;
     }
 
     .aboutMe {
         margin-top: 1.5rem;
+        font-size: 2rem;
     }
 
     #skills {
         margin-top: 1rem;
+    }
+
+    .secondBody {
+        text-align: center;
+    }
+
+    #tools {
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
     }
 
     /* /* .cont1 {
@@ -392,12 +396,6 @@ img:hover {
 }
 
 @media(min-width: 480px) {
-    .iconRow {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        text-align: center;
-        /* width: auto; */
-    }
 
     .mainBody {
         height: 100vh
@@ -410,14 +408,22 @@ img:hover {
     .projectSec {
         height: auto;
     }
+
+    .iconRow {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        /* text-align: center; */
+        transform: translateY(22rem);
+    }
+
+    .icon {
+        display: inline;
+        width: 2rem;
+        height: 2.5rem;
+    }
 }
 
 @media(min-width: 768px) {
-    .iconRow {
-        display: flex;
-        text-align: center;
-        width: auto;
-    }
 
     .mainBody {
         height: 100vh
@@ -434,13 +440,16 @@ img:hover {
     }
 
     .iconRow {
-        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        /* text-align: center; */
+        transform: translateY(22rem);
     }
 
     .icon {
         display: inline;
-        width: 2.5rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2.5rem;
     }
 
     .cont1 {
@@ -469,6 +478,7 @@ img:hover {
 
     .iconRow {
         margin: auto;
+        transform: translateY(23rem);
     }
 
     .icon {
