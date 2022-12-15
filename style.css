@@ -327,6 +327,7 @@ body {
 
 
 
+
 @media(max-width: 480px) {
     .titleName {
         font-size: 1.5rem;
@@ -536,4 +537,49 @@ body {
         transform: translateY(2rem);
     }
 
+}
+
+@media(min-width: 912px) {
+    .mainBody {
+        height: 100vh
+    }
+
+    .mainTitle {
+        margin: auto;
+        font-size: 4rem
+    }
+
+    .mainText {
+        margin: auto;
+        font-size: 1.5rem;
+    }
+
+    .iconRow {
+        margin: auto;
+        transform: translateY(23rem);
+    }
+
+    .icon {
+        display: inline;
+        width: 3rem;
+        height: 3.5rem;
+    }
+
+    .cont {
+        height: auto;
+    }
+
+    .projectSec {
+        height: auto;
+    }
+
+    .form1,
+    .form2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form2 {
+        transform: translateY(2rem);
+    }
 }
